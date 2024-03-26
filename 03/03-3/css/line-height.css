@@ -1,0 +1,10 @@
+.text1 {
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid red;
+}
+.text2 {
+    font-size: 20px;
+    line-height: 1.5;
+    border: 1px solid black;
+}
