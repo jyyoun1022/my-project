@@ -1,5 +1,6 @@
 p {
     border: 1px solid blue;
+    width: 400px;
 }
 p:nth-of-type(1) {
     text-align: left;
