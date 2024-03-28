@@ -1,0 +1,13 @@
+section {
+    width: 600px;
+    height: 200px;
+}
+section:nth-of-type(1) {
+    background-color: lightblue;
+}
+section:nth-of-type(2) {
+    position: relative;
+    background-color: blue;
+    top: -100px;
+    left: 100px;
+}

@@ -1,0 +1,22 @@
+.wrap {
+    width: 800px;
+    margin: 100px auto;
+    border: 5px solid black;
+}
+.wrap .left {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    float: left;
+}
+.wrap .right {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    float: left;
+}
+.wrap::after {
+    content: '';
+    display: block;
+    clear: left;
+}
