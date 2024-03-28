@@ -8,9 +8,13 @@ main {
     background: lightcyan;
 }
 section {
+    /* width: 100%; */
     border: 10px solid black;
-    display: inline-flex;
+    /* box-sizing: border-box; */
+    display: flex;
+    /* flex-wrap: wrap;     */
 }
+
 section article {
     width: 100px;
     height: 100px;
