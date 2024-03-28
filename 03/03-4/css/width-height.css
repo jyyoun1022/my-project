@@ -1,0 +1,27 @@
+article {
+    border: 1px solid red;
+}
+article:nth-of-type(1) {
+    width: 100px;
+    height: 100px;
+}
+article:nth-of-type(2) {
+    width: 20%;
+    height: 20%;
+}
+#vw article:nth-of-type(1) {
+    width: 10vw;
+    height: 10vw;
+}
+#vw article:nth-of-type(2) {
+    width: 20vw;
+    height: 20vw;
+}
+#vh article:nth-of-type(1) {
+    width: 10vh;
+    height: 10vh;
+}
+#vh article:nth-of-type(2) {
+    width: 20vw;
+    height: 20vw;
+}

@@ -1,0 +1,42 @@
+article {
+    border: 1px solid;
+    width: 50px;
+    height: 30px;
+}
+
+article:nth-of-type(1) {
+    /* 상하좌우 */
+    margin: 20px; 
+}
+article:nth-of-type(2) {
+    /* 상하, 좌우 */
+    margin: 20px 50px;
+}
+article:nth-of-type(3) {
+    /* 상하, 좌우 는 중앙 */
+    margin: 20px auto;
+}
+article:nth-of-type(4) {
+    /* 위는 20, 좌우는 중앙, 아래는 40 */
+    margin: 20px auto 40px;
+}
+article:nth-of-type(5) {
+    /* 시계방향으로 위,오른,아래,왼쪽 */
+    margin: 0px 10px 20px 30px;
+}
+article:nth-of-type(6) {
+    /* 바깥쪽 여백을 왼쪽으로 20px 지정 */
+    margin-left: 20px;
+}
+article:nth-of-type(7) {
+    /* 오른쪽으로 20px */
+    margin-right: 20px;
+}
+article:nth-of-type(8) {
+    /* 위쪽으로 20px */
+    margin-top: 20px;
+}
+article:nth-of-type(9) {
+    /* 아래로 20px */
+    margin-bottom: 20px;
+}
