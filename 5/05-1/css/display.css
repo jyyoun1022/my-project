@@ -1,4 +1,4 @@
-* {
+/* * {
     margin : 0px;
     padding: 0px;
 }
@@ -8,16 +8,33 @@ main {
     background: lightcyan;
 }
 section {
-    /* width: 100%; */
-    border: 10px solid black;
-    /* box-sizing: border-box; */
-    display: flex;
-    /* flex-wrap: wrap;     */
+    border: 10px solid blue;
+    display: inline-flex;
 }
 
 section article {
+    width: 50px;
+    height: 50px;
+    background : aqua;
+    border: 1px solid black;
+} */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background: lightCyan;
+}
+section {
+    border: 10px solid blue;
+    display: inline-flex;
+    flex-direction: column;
+}
+section article {
+    background: aquamarine;
     width: 100px;
     height: 100px;
-    background : aqua;
     border: 1px solid black;
 }

@@ -22,9 +22,5 @@ section {
 	border: 10px solid blue;
 	box-sizing: border-box;
 	display: flex;
-	/* flex-direction: row; */
-/* flex-warp 속성을 사용해 줄 바꾸기*/
-	/* flex-wrap: wrap;  */
-/* flex-flow를 사용해 flex-direction, flex-wrap 속성을 한꺼번에 적용하기 */
-	flex-flow: row wrap;
+	flex-direction: row;
 }
